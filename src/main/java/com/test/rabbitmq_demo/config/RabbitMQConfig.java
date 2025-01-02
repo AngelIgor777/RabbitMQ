@@ -27,7 +27,6 @@ public class RabbitMQConfig {
     @Value("${rabbitmq.json.Queue.name}")
     private String jsonQueueName;
 
-
     @Value("${rabbitmq.json.RoutingKey}")
     private String jsonRoutingKey;
 
